@@ -50,13 +50,13 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-import rangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-range-by@esm/index.mjs';
+import rangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-range-by@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-range-by@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-range-by@v0.1.0-esm/index.mjs';
 ```
 
 #### rangeBy( N, x, strideX, clbk\[, thisArg] )
@@ -206,7 +206,7 @@ var v = rangeBy.ndarray( 3, x, 1, x.length-3, accessor );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import rangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-range-by@esm/index.mjs';
+import rangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-range-by@v0.1.0-esm/index.mjs';
 
 function accessor( v ) {
     return v * 2.0;
